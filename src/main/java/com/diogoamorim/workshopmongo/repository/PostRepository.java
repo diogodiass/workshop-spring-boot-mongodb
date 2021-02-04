@@ -3,9 +3,8 @@ package com.diogoamorim.workshopmongo.repository;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
-import com.diogoamorim.workshopmongo.domain.User;
+import com.diogoamorim.workshopmongo.domain.Post;
 
 @Repository
-public interface UserRepository extends MongoRepository<User, String>{
-	
+public interface PostRepository extends MongoRepository<Post, String>{
 }
